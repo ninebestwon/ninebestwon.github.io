@@ -1,0 +1,350 @@
+---
+layout: default
+title: Home
+---
+<div id="about-page" class="layout-default">
+    <div id="profile-container">
+        <div id="profile-wrap">
+            <div id="profile-main">
+                <div class="name-wrapper">
+                    <span>{{site.data.info.en_name}}</span>
+                    <span>{{site.data.info.kr_name}} / {{site.data.info.username}}</span>
+                </div>
+    
+                <p class="greetings">
+                    {{site.data.info.intro}}
+                </p>
+    
+                <div class="contact-wrap">
+                    <div class="contact-list">
+                        <a class="contact" href={{site.data.info.github}} title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="contact" href={{site.data.info.linkedin}} title="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a class="contact" href={{site.data.info.instagram}} title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="contact" href={{site.data.info.formal_email}} title="e-mail">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
+    
+                    <a href="" id="go-cv-btn">CV</a>
+                    <a href="" id="go-cv-btn">PORTFOLIO</a>
+                    
+                </div>
+            </div>
+    
+            <div id="profile-img">
+                <img src="/assets/images/profile_2.jpg">
+            </div>
+        </div>
+    </div>
+    
+    <div id="info-container">
+        <div id="info-wrap">
+            <div id="info-research">
+                <div class="info-title-wrap">
+                    <div class="horizontal-line"></div>
+                    <div class="info-title">RESEARCH INTERESTS</div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <div id="research-wrap">
+                    <div class="research-single">
+                        <div class="research-single-icon">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+
+                        <div class="research-single-title">
+                            Robotics
+                        </div>
+
+                        <div class="research-single-desc">
+                            Mobile Robot, Manipulator, Drone, etc.
+                        </div>
+                    </div>
+
+                    <div class="research-single">
+                        <div class="research-single-icon">
+                            <i class="fa-solid fa-chess-board"></i>
+                        </div>
+
+                        <div class="research-single-title">
+                            Reinforcement Learning
+                        </div>
+
+                        <div class="research-single-desc">
+                            Robotics, Game, Economics, etc.
+                        </div>
+                    </div>
+
+                    <div class="research-single">
+                        <div class="research-single-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+
+                        <div class="research-single-title">
+                            Artifical Intelligence
+                        </div>
+
+                        <div class="research-single-desc">
+                            Machine Learning, Deep Learning, etc.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="info-edu">
+                <div class="info-title-wrap">
+                    <div class="horizontal-line"></div>
+                    <div class="info-title">EDUCATION</div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <div>
+                    <!-- <div class="edu-single">
+                        <div class="edu-single-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <div class="edu-single-duration">
+                            2023.08. ~ Present
+                        </div>
+
+                        <div class="edu-single-school">
+                            <span>POSTECH</span>
+                            <span>Pohang, Korea</span>
+                        </div>
+
+                        <div class="edu-single-position">
+                            M.S. Student
+                        </div>
+
+                        <ul class="edu-single-desc">
+                            <li>Graduate School of Artificial Intelligence</li>
+                            <li><a href="https://ami.postech.ac.kr/">Algorithmic Machine Intelligence Lab (AMI Lab.)</a></li>
+                            <li>Advised by Prof. Tae-Hyun Oh</li>
+                        </ul>
+                    </div> -->
+
+                    <div class="edu-single">
+                        <div class="edu-single-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <div class="edu-single-duration">
+                            2018.03. ~ Present
+                        </div>
+
+                        <div class="edu-single-school">
+                            <span>Chung-Ang Univ.</span>
+                            <span>Seoul, Korea</span>
+                        </div>
+
+                        <div class="edu-single-position">
+                            Bachelor Student
+                        </div>
+
+                        <ul class="edu-single-desc">
+                            <li>Major in Mechanical Engineering</li>
+                            <!-- <li>Current GPA: 4.42 / 4.5</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="info-experience">
+                <div class="info-title-wrap">
+                    <div class="horizontal-line"></div>
+                    <div class="info-title">EXPERIENCES</div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <div>
+                    <div class="exp-single">
+                        <div class="edu-single-icon">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+
+                        <div class="exp-single-duration">
+                            2022.11. ~ 2023.06.
+                        </div>
+
+                        <div class="exp-single-org">
+                            <span>AIMS : AI for Mechanical Systems</span>
+                            <span>Chung-Ang Univ., Seoul, Korea</span>
+                        </div>
+
+                        <div class="exp-single-position">
+                            Research Student
+                        </div>
+
+                        <ul class="exp-single-desc">
+                            <li>Advisor: Professor. Woochul Nam</li>
+                        </ul>
+                    </div>
+
+                    <div class="exp-single">
+                        <div class="edu-single-icon">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+
+                        <div class="exp-single-duration">
+                            2023.06. ~ Present
+                        </div>
+
+                        <div class="exp-single-org">
+                            <span>KIST Robot Vision Lab</span>
+                            <span>Korea Institute of Science and Technology, Seoul, Korea</span>
+                        </div>
+
+                        <div class="exp-single-position">
+                            Academic Intern
+                        </div>
+
+                        <ul class="exp-single-desc">
+                            <li>Advisor: Doctor. Kanggeon Kim</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="info-projects">
+                <div class="info-title-wrap">
+                    <div class="horizontal-line"></div>
+                    <div class="info-title">PROJECTS</div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <div id="proj-list">
+                    <a class="about-proj-single"
+                    style="background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/assets/images/samples/image7-2H_Media-Unsplash.jpg')">
+                        <div class="about-proj-single-duration">
+                            2022.07. ~ 2022.08.
+                        </div>
+
+                        <div class="about-proj-single-title">
+                            Drowsy Driving Detection (Deep Learning IOT Contest)
+                        </div>
+
+                        <div class="about-proj-single-sub">
+                            Chung-Ang Univ
+                        </div>
+                    </a>
+
+                    <a class="about-proj-single"
+                    style="background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/assets/images/samples/image6-2H_Media-Unsplash.jpg')">
+                        <div class="about-proj-single-duration">
+                            2022.11.
+                        </div>
+
+                        <div class="about-proj-single-title">
+                            Hand Gesture Recognition through 'Nina-Pro' EMG Data
+                        </div>
+
+                        <div class="about-proj-single-sub">
+                            Chung-Ang Univ AIMS
+                        </div>
+                    </a>
+
+                    <a class="about-proj-single" href="/projects" 
+                    style="background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/assets/images/samples/image5-Arturo_Esparza-Unsplash.jpg')">
+                        <div class="about-proj-single-duration">
+                            2023.07. ~ 2023.08
+                        </div>
+
+                        <div class="about-proj-single-title">
+                            Cerebral Aneurysm Detection through DSA Image Data
+                        </div>
+
+                        <div class="about-proj-single-sub">
+                            Pusan National University Hospital
+                        </div>
+                    </a>
+
+                    <a class="about-proj-single" 
+                    style="background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/assets/images/samples/image8-Mailchimp-Unsplash.jpg')">
+                        <div class="about-proj-single-duration">
+                            2023.06. ~ 2023.12.
+                        </div>
+
+                        <div class="about-proj-single-title">
+                            Future Promising Convergence Technology Pioneer Project
+                        </div>
+
+                        <div class="about-proj-single-sub">
+                            Ministry of Science and ICT
+                        </div>
+                    </a>
+                    
+                    <!-- <a class="about-proj-single" href="/projects" 
+                    style="background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/assets/images/samples/image3-refargotohp-Unsplash.jpg')">
+                        <div class="about-proj-single-duration">
+                            2022.05.
+                        </div>
+        
+                        <div class="about-proj-single-title">
+                            Traffic Sign & Light Object Detection and Driving
+                        </div>
+                    </a> -->
+        
+                    <!-- <a class="about-proj-single" href="/projects" 
+                    style="background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/assets/images/samples/image2-Vivek_Kumar-Unsplash.jpg')">
+                        <div class="about-proj-single-duration">
+                            2022.04.
+                        </div>
+        
+                        <div class="about-proj-single-title">
+                            Lane Detection and Driving
+                        </div>
+                    </a> -->
+                </div>
+
+                <div id="go-proj-btn-wrap">
+                    <a id="go-proj-btn" href="">Project Portfolio</a>
+                </div>
+            </div>
+
+            <div id="info-awards">
+                <div class="info-title-wrap">
+                    <div class="horizontal-line"></div>
+                    <div class="info-title">AWARDS</div>
+                    <div class="horizontal-line"></div>
+                </div>
+
+                <div id="awards-list">
+                    <a class="about-awards-single"
+                    style="background: linear-gradient(0deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/assets/images/samples/image2-Vivek_Kumar-Unsplash.jpg')">
+                        <div class="about-awards-single-duration">
+                            2022.08.
+                        </div>
+
+                        <div class="about-awards-single-title">
+                            Chung-Ang Univ Deep Learning IOT Contest
+                        </div>
+
+                        <div class="about-awards-single-awards">
+                            🥈2nd Place Award
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="cv-container">
+        <div id="cv-wrap">
+            <p>
+                
+            </p>
+            
+            <div id="go-cv-btn-wrap">
+                <a id="go-cv-btn" href="" >See My CV</a>
+            </div>
+        </div>
+    </div>
+</div>

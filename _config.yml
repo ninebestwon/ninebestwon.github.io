@@ -1,0 +1,446 @@
+# basic info
+locale : "ko-KR"
+title : "Kyuwon Lee | ninebestwon"
+name : "ninebestwon (Kyuwon Lee)"
+url : "https://ninebestwon.github.io"
+repository : "https://github.com/ninebestwon/ninebestwon.github.io"
+timezone: Asia/Seoul
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+# lsi: false
+# excerpt_separator: "\n\n"
+# incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  # hard_wrap: false
+  # auto_ids: true
+  # footnote_nr: 1
+  # entity_output: as_char
+  # toc_levels: 1..6
+  # smart_quotes: lsquo,rsquo,ldquo,rdquo
+  # enable_coderay: false
+
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#     values:
+#       layout: "post"
+#       mathjax: true
+#       toc: false
+#       comments: true
+
+#   # Recent Post --> Sound Wave
+#   -
+#     scope:
+#       path: "_pages/categories/category_recentposts.html"
+#     values:
+#       title_bg: "/assets/images/background/Sound_Wave/soundwave_0.png"
+
+#   # Robotics --> Shapes
+#   -
+#     scope:
+#       path: "_pages/categories/category_robotics.html"
+#     values:
+#       title_bg: "/assets/images/background/Shapes/shapes_0.png"
+
+#   # Robotics / ROS
+#   -
+#     scope:
+#       path: "_posts/robotics/ros/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-robotics-ros.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_robotics_ros.html"
+#     values:
+#       title_bg: "/assets/images/background/Shapes/shapes_1.png"
+
+#   # Robotics / Omniverse
+#   -
+#     scope:
+#       path: "_posts/robotics/omniverse/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-robotics-mobile_robot.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_robotics_omniverse.html"
+#     values:
+#       title_bg: "/assets/images/background/Shapes/shapes_2.png"
+
+#   # Robotics / Perception
+#   -
+#     scope:
+#       path: "_posts/robotics/perception/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-robotics-perception.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_robotics_perception.html"
+#     values:
+#       title_bg: "/assets/images/background/Shapes/shapes_3.png"
+
+#   # Robotics / Control
+#   -
+#     scope:
+#       path: "_posts/robotics/control/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-robotics-control.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_robotics_control.html"
+#     values:
+#       title_bg: "/assets/images/background/Shapes/shapes_4.png"
+
+#   # Robotics / Manipulator
+#   -
+#     scope:
+#       path: "_posts/robotics/manipulator/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-robotics-mobile_robot.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_robotics_manipulator.html"
+#     values:
+#       title_bg: "/assets/images/background/Shapes/shapes_5.png"
+
+#   # Robotics / Mobile Robot
+#   -
+#     scope:
+#       path: "_posts/robotics/mobile_robot/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-robotics-mobile_robot.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_robotics_mobilerobot.html"
+#     values:
+#       title_bg: "/assets/images/background/Shapes/shapes_6.png"
+
+
+#   # AI --> Circuit Board
+#   -
+#     scope:
+#       path: "_pages/categories/category_ai.html"
+#     values:
+#       title_bg: "/assets/images/background/Circuit_Board/circuitboard_0.png"
+
+#   # AI / Machine Learning
+#   -
+#     scope:
+#       path: "_posts/ai/machine_learning/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-ai-machine_learning.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_ai_machinelearning.html"
+#     values:
+#       title_bg: "/assets/images/background/Circuit_Board/circuitboard_1.png"
+
+#   # AI / Deep Learning
+#   -
+#     scope:
+#       path: "_posts/ai/deep_learning/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-ai-deep_learning.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_ai_deeplearning.html"
+#     values:
+#       title_bg: "/assets/images/background/Circuit_Board/circuitboard_2.png"
+
+#   # AI / Computer Vision
+#   -
+#     scope:
+#       path: "_posts/ai/computer_vision/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-ai-computer_vision.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_ai_computervision.html"
+#     values:
+#       title_bg: "/assets/images/background/Circuit_Board/circuitboard_3.png"
+
+#   # AI / Natural Language
+#   -
+#     scope:
+#       path: "_posts/ai/natural_language/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-ai-computer_vision.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_ai_naturallanguage.html"
+#     values:
+#       title_bg: "/assets/images/background/Circuit_Board/circuitboard_4.png"
+
+#   # AI / Reinforcement Learning
+#   -
+#     scope:
+#       path: "_posts/ai/reinforcement_learning/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-ai-computer_vision.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_ai_reinforcementlearning.html"
+#     values:
+#       title_bg: "/assets/images/background/Circuit_Board/circuitboard_5.png"
+
+
+#   # Programming --> Polygon Luminary
+#   -
+#     scope:
+#       path: "_pages/categories/category_programming.html"
+#     values:
+#       title_bg: "/assets/images/background/Polygon_Luminary/polygonluminary_0.png"
+
+#   # Programming / Algorithm
+#   -
+#     scope:
+#       path: "_posts/programming/algorithm/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-programming-algorithm.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_programming_algorithm.html"
+#     values:
+#       title_bg: "/assets/images/background/Polygon_Luminary/polygonluminary_1.png"
+
+#   # Programming / Python
+#   -
+#     scope:
+#       path: "_posts/programming/python/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-programming-python.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_programming_python.html"
+#     values:
+#       title_bg: "/assets/images/background/Polygon_Luminary/polygonluminary_2.png"
+
+#   # Programming / C++
+#   -
+#     scope:
+#       path: "_posts/programming/cpp/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-programming-cpp.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_programming_cpp.html"
+#     values:
+#       title_bg: "/assets/images/background/Polygon_Luminary/polygonluminary_3.png"
+
+#   # Programming / MATLAB
+#   -
+#     scope:
+#       path: "_posts/programming/matlab/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-programming-cpp.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_programming_matlab.html"
+#     values:
+#       title_bg: "/assets/images/background/Polygon_Luminary/polygonluminary_4.png"
+
+#   # Programming / JavaScript
+#   -
+#     scope:
+#       path: "_posts/programming/javascript/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-programming-javascript.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_programming_javascript.html"
+#     values:
+#       title_bg: "/assets/images/background/Polygon_Luminary/polygonluminary_5.png"
+
+#   # Programming / Others
+#   -
+#     scope:
+#       path: "_posts/programming/others/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-programming-others.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_programming_others.html"
+#     values:
+#       title_bg: "/assets/images/background/Polygon_Luminary/polygonluminary_6.png"
+
+
+#   # Dev --> Contour Line
+#   -
+#     scope:
+#       path: "_pages/categories/category_dev.html"
+#     values:
+#       title_bg: "/assets/images/background/Contour_Line/contourline_0.png"
+
+#   # Dev / Linux
+#   -
+#     scope:
+#       path: "_posts/dev/linux/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-dev-linux.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_dev_linux.html"
+#     values:
+#       title_bg: "/assets/images/background/Contour_Line/contourline_1.png"
+      
+#   # Dev / Anaconda
+#   -
+#     scope:
+#       path: "_posts/dev/anaconda/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-dev-linux.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_dev_anaconda.html"
+#     values:
+#       title_bg: "/assets/images/background/Contour_Line/contourline_2.png"
+
+#   # Dev / Git
+#   -
+#     scope:
+#       path: "_posts/dev/git/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-dev-git.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_dev_git.html"
+#     values:
+#       title_bg: "/assets/images/background/Contour_Line/contourline_3.png"
+
+#   # Dev / Docker
+#   -
+#     scope:
+#       path: "_posts/dev/docker/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-dev-docker.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_dev_docker.html"
+#     values:
+#       title_bg: "/assets/images/background/Contour_Line/contourline_4.png"
+
+
+#   # Math --> Hexagon
+#   -
+#     scope:
+#       path: "_pages/categories/category_math.html"
+#     values:
+#       title_bg: "/assets/images/background/Hexagon/hexagon_0.png"
+
+#   # Math / Linear Algebra
+#   -
+#     scope:
+#       path: "_posts/math/linear_algebra/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-math-linear_algebra.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_math_linearalgebra.html"
+#     values:
+#       title_bg: "/assets/images/background/Hexagon/hexagon_1.png"
+
+#   # Math / Statistics
+#   -
+#     scope:
+#       path: "_posts/math/statistics/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-math-math_for_ml.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_math_statistics.html"
+#     values:
+#       title_bg: "/assets/images/background/Hexagon/hexagon_2.png"
+
+#   # Math / Math for ML
+#   -
+#     scope:
+#       path: "_posts/math/math_for_ml/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-math-math_for_ml.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_math_mathforml.html"
+#     values:
+#       title_bg: "/assets/images/background/Hexagon/hexagon_3.png"
+
+
+#   # Travel --> Meteor
+#   -
+#     scope:
+#       path: "_pages/categories/category_travel.html"
+#     values:
+#       title_bg: "/assets/images/background/Meteor/meteor_0.png"
+
+
+#   # Daily --> Wave Line
+#   -
+#     scope:
+#       path: "_pages/categories/category_daily.html"
+#     values:
+#       title_bg: "/assets/images/background/Wave_Line/waveline_0.png"
+
+#   # Daily / Book
+#   -
+#     scope:
+#       path: "_posts/daily/book/*"
+#     values:
+#       teaser: "/assets/images/teaser/teaser-math-linear_algebra.png"
+#   -
+#     scope:
+#       path: "_pages/categories/category_daily_book.html"
+#     values:
+#       title_bg: "/assets/images/background/Wave_Line/waveline_1.png"
+
+
+#   # ETC --> Mass Circles
+#   -
+#     scope:
+#       path: "_pages/categories/category_etc.html"
+#     values:
+#       title_bg: "/assets/images/background/Mass_Circles/masscircles_0.png"
