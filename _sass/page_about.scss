@@ -413,6 +413,33 @@
 
     #profile-main {
         margin-right: 0;
+
+        .contact-wrap {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 1rem;
+
+            .contact-list {
+                width: 100%;
+                display:grid;
+                place-items: center;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+            .btn-list {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+
+                .btn {
+                    text-align: center;
+                }
+
+            }
+            #go-cv-btn {
+                margin-left: 0rem;
+            }
+        }
     }
 
     #profile-img {
