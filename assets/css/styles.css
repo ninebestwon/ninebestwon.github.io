@@ -3,19 +3,20 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  /*===== Colors =====*/
+
+  /* ===== Colors =====
   --first-color: #3E0E12;
   --first-color-dark: #2F0A0D;
   --text-color: #524748;
   --first-color-light: #7B6F71;
-  --first-color-lighten: #FBF9F9;
+  --first-color-lighten: #FBF9F9; */
 
   /*===== Colors =====*/
   --first-color: #3B478C;
   --first-color-dark: #2B3578;
   --text-color: #4C5054;
   --first-color-light: #7E8286;
-  --first-color-lighten: #F0F4F8;
+  --first-color-lighten: #F9F9F9;
 
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
