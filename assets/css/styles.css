@@ -9,6 +9,14 @@
   --text-color: #524748;
   --first-color-light: #7B6F71;
   --first-color-lighten: #FBF9F9;
+
+  /*===== Colors =====*/
+  --first-color: #3B478C;
+  --first-color-dark: #2B3578;
+  --text-color: #4C5054;
+  --first-color-light: #7E8286;
+  --first-color-lighten: #F0F4F8;
+
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
   --biggest-font-size: 2.5rem;
